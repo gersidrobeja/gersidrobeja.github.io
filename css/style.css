@@ -1,0 +1,102 @@
+body{
+    text-align:center;
+    background-color:#f1f1f1;
+    margin:0;
+
+}
+#header{
+    z-index: 2;
+    width:100%;
+    background-color:dodgerblue;
+    position: fixed;
+    padding:15px;
+    top: 0;
+}
+#Pricing{
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+img{
+    position: relative;
+    top:10px;
+    left:20px;
+    width:250px;
+}
+
+#how,#features{
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    top:100px;
+    margin-bottom:100px;
+}
+
+#form{
+    position: relative;
+    top:130px;
+    margin-bottom:20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  li {
+    
+        margin-right: 30px;
+        display: inline;
+  }
+ul li a{
+    color:black;
+    text-decoration: none;
+}
+ul li a:hover{
+    border-bottom: 1px solid dodgerblue;
+}
+
+.li-float{
+    float:right;
+}
+.flex{
+    display:flex;
+}
+
+@media (max-width: 768px){
+    body {
+        background-color: lightblue;
+    }
+}
+
+#email{
+    width:25%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#submit{
+    width:60px;
+    height: 35px;
+    background-color: dodgerblue;
+    color:#000;
+    border:none;
+    border-radius: 5px;
+}
+
+.price{
+    width:25%;
+    border:2px solid black;
+}
+
+.price{
+    width:33.33%;
+    margin:10px;
+    padding:20px;
+    border:2px solid black;
+    box-shadow: 4px 14px 6px dodgerblue;
+}
